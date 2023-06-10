@@ -8,11 +8,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - isGround
   - Water
   - UI
-  - 
-  - 
+  - isWalls
+  - isSunRoof
   - 
   - 
   - 

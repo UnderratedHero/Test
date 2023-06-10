@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 630798685208144259}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,9 +84,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2012173964074294020, guid: 9dd705070df4a554ca7a07bce480f3b7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3652284344705888330, guid: 9dd705070df4a554ca7a07bce480f3b7, type: 3}
       propertyPath: m_Name
       value: Tile (Cloud)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3652284344705888330, guid: 9dd705070df4a554ca7a07bce480f3b7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dd705070df4a554ca7a07bce480f3b7, type: 3}
@@ -146,9 +154,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2012173964074294020, guid: 9dd705070df4a554ca7a07bce480f3b7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3652284344705888330, guid: 9dd705070df4a554ca7a07bce480f3b7, type: 3}
       propertyPath: m_Name
       value: Tile (Cloud) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3652284344705888330, guid: 9dd705070df4a554ca7a07bce480f3b7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9dd705070df4a554ca7a07bce480f3b7, type: 3}
