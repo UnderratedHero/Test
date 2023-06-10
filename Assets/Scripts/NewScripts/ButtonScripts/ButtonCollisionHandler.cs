@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class ButtonCollisionHandler: MonoBehaviour
 {
-    private bool isCollision = false;
+    private bool _isCollision = false;
 
     [SerializeField] private GameObject _object;
     [SerializeField] private MoveForward _objectMethod;
@@ -22,18 +22,18 @@ public class ButtonCollisionHandler: MonoBehaviour
     private void OnCollisionStay2D(Collision2D collision)
     {
         _collisionColorMethod.ChangeObjectColor(ChangeColor.ColorStatements.PickItem);
-        isCollision = true;
+        _isCollision = true;
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         _collisionColorMethod.ChangeObjectColor(ChangeColor.ColorStatements.Idle);
-        isCollision = false;
+        _isCollision = false;
     }
 
     private void Update()
     {
-        if(isCollision)
+        if(_isCollision)
         {
 
             if (_checkPosMethod.CheckPosition() == CheckObjectPosition.PositionStatements.LeftIdlePos)
